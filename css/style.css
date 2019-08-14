@@ -1,0 +1,86 @@
+body, html{
+    height: 100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight: 400;
+    line-height:1.8em;
+    color:#667;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity:0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* fixed = parallax
+    scroll = normal */
+
+    background-attachment:fixed;
+
+}
+
+.pimg1{
+    background-image:url("../images/active-activity-beach-40815.jpg");
+    min-height:100%;
+}
+
+.pimg2{
+    background-image:url('../images/beach-motivation-ocean-261630.jpg');
+    min-height:400px;
+}
+
+.pimg3{
+    background-image:url('../images/choker-close-up-decor-1571673.jpg');
+    min-height:400px;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity:0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
+
+.section-light{
+    background-color:#f4f4f4;
+    color:#667
+}
+
+.section-dark{
+    background-color:rgb(128, 122, 126);
+    color:#ddd
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: rgb(243, 57, 203);
+    font-size: 27px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+
+}
+
+.ptext1{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: rgb(243, 57, 203);
+    font-size: 50px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+
+}
